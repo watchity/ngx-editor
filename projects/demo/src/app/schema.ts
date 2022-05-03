@@ -1,4 +1,4 @@
-import { nodes as basicNodes, marks } from 'ngx-editor';
+import { nodes as basicNodes, marks } from 'ngx-editor-watchity';
 import { Schema } from 'prosemirror-model';
 import { node as codeMirrorNode } from 'prosemirror-codemirror-6';
 

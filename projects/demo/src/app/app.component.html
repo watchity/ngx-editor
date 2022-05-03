@@ -2,32 +2,32 @@
   <div class="content">
     <div class="display">
       <div class="logo">
-        <img src="../assets/ngx-editor.svg" />
+        <img src="../assets/ngx-editor-watchity.svg" />
         <div class="subtitle">Rich Text Editor for angular using ProseMirror</div>
       </div>
       <div class="badges" *ngIf="isProdMode">
-        <img src="https://badgen.net/npm/v/ngx-editor" />
-        <img src="https://badgen.net/npm/dm/ngx-editor" />
-        <img src="https://badgen.net/npm/dt/ngx-editor" />
-        <img src="https://badgen.net/npm/license/ngx-editor" />
+        <img src="https://badgen.net/npm/v/ngx-editor-watchity" />
+        <img src="https://badgen.net/npm/dm/ngx-editor-watchity" />
+        <img src="https://badgen.net/npm/dt/ngx-editor-watchity" />
+        <img src="https://badgen.net/npm/license/ngx-editor-watchity" />
       </div>
     </div>
 
     <form [formGroup]="form">
 
       <div class="editor NgxEditor__Wrapper">
-        <ngx-editor-menu [editor]="editor" [toolbar]="toolbar" [customMenuRef]="customMenu">
-        </ngx-editor-menu>
-        <ngx-editor [editor]="editor" formControlName="editorContent">
-          <ngx-editor-floating-menu [editor]="editor"></ngx-editor-floating-menu>
-        </ngx-editor>
+        <ngx-editor-watchity-menu [editor]="editor" [toolbar]="toolbar" [customMenuRef]="customMenu">
+        </ngx-editor-watchity-menu>
+        <ngx-editor-watchity [editor]="editor" formControlName="editorContent">
+          <ngx-editor-watchity-floating-menu [editor]="editor"></ngx-editor-watchity-floating-menu>
+        </ngx-editor-watchity>
       </div>
 
     </form>
 
     <!-- <div class="editor">
-      <ngx-editor [editor]="editor" [(ngModel)]="editordoc">
-      </ngx-editor>
+      <ngx-editor-watchity [editor]="editor" [(ngModel)]="editordoc">
+      </ngx-editor-watchity>
     </div> -->
 
     <!-- custom menu -->

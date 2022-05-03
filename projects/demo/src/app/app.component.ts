@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
 import { AbstractControl, FormControl, FormGroup } from '@angular/forms';
 import { environment } from '../environments/environment';
 
-import { Validators, Editor, Toolbar, DEFAULT_TOOLBAR } from 'ngx-editor';
+import { Validators, Editor, Toolbar, DEFAULT_TOOLBAR } from 'ngx-editor-watchity';
 
 import jsonDoc from './doc';
 import schema from './schema';

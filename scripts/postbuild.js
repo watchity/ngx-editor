@@ -6,7 +6,7 @@ const copyFile = async function (srcFilePath, destFilePath) {
   const fileName = path.basename(srcFilePath);
   try {
     const srcPath = path.resolve(process.cwd(), srcFilePath);
-    const destPath = path.resolve(process.cwd(), 'dist/ngx-editor', destFilePath);
+    const destPath = path.resolve(process.cwd(), 'dist/ngx-editor-watchity', destFilePath);
     await fs.copyFile(srcPath, destPath);
     console.log(chalk.green(`- File Copied: ${fileName}`));
   } catch (err) {

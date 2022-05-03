@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-editor": {
+    "ngx-editor-watchity": {
       "projectType": "library",
-      "root": "projects/ngx-editor",
-      "sourceRoot": "projects/ngx-editor/src",
+      "root": "projects/ngx-editor-watchity",
+      "sourceRoot": "projects/ngx-editor-watchity/src",
       "prefix": "ngx",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ngx-editor/ng-package.json"
+            "project": "projects/ngx-editor-watchity/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-editor/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-editor-watchity/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngx-editor/tsconfig.lib.json"
+              "tsConfig": "projects/ngx-editor-watchity/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,17 +27,17 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngx-editor/src/test.ts",
-            "tsConfig": "projects/ngx-editor/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-editor/karma.conf.js"
+            "main": "projects/ngx-editor-watchity/src/test.ts",
+            "tsConfig": "projects/ngx-editor-watchity/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-editor-watchity/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
             "lintFilePatterns": [
-              "projects/ngx-editor/**/*.ts",
-              "projects/ngx-editor/**/*.html"
+              "projects/ngx-editor-watchity/**/*.ts",
+              "projects/ngx-editor-watchity/**/*.html"
             ]
           }
         }
@@ -156,7 +156,7 @@
       }
     }
   },
-  "defaultProject": "ngx-editor",
+  "defaultProject": "ngx-editor-watchity",
   "cli": {
     "defaultCollection": "@angular-eslint/schematics",
     "analytics": false

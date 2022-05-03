@@ -12,25 +12,25 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "ngx-editor": [
-        "dist/ngx-editor/ngx-editor",
-        "dist/ngx-editor"
+      "ngx-editor-watchity": [
+        "dist/ngx-editor-watchity/ngx-editor-watchity",
+        "dist/ngx-editor-watchity"
       ],
-      "ngx-editor/utils": [
-        "dist/ngx-editor/ngx-editor/utils",
-        "dist/ngx-editor/utils"
+      "ngx-editor-watchity/utils": [
+        "dist/ngx-editor-watchity/ngx-editor-watchity/utils",
+        "dist/ngx-editor-watchity/utils"
       ],
-      "ngx-editor/helpers": [
-        "dist/ngx-editor/ngx-editor/helpers",
-        "dist/ngx-editor/helpers"
+      "ngx-editor-watchity/helpers": [
+        "dist/ngx-editor-watchity/ngx-editor-watchity/helpers",
+        "dist/ngx-editor-watchity/helpers"
       ],
-      "ngx-editor/schema": [
-        "dist/ngx-editor/ngx-editor/schema",
-        "dist/ngx-editor/schema"
+      "ngx-editor-watchity/schema": [
+        "dist/ngx-editor-watchity/ngx-editor-watchity/schema",
+        "dist/ngx-editor-watchity/schema"
       ],
-      "ngx-editor/commands": [
-        "dist/ngx-editor/ngx-editor/commands",
-        "dist/ngx-editor/commands"
+      "ngx-editor-watchity/commands": [
+        "dist/ngx-editor-watchity/ngx-editor-watchity/commands",
+        "dist/ngx-editor-watchity/commands"
       ]
     },
     "declaration": false,

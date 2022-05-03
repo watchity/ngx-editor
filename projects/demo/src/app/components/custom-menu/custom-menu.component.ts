@@ -3,8 +3,8 @@ import { EditorState, Transaction } from 'prosemirror-state';
 import { EditorView } from 'prosemirror-view';
 import { setBlockType } from 'prosemirror-commands';
 
-import { Editor } from 'ngx-editor';
-import { isNodeActive } from 'ngx-editor/helpers';
+import { Editor } from 'ngx-editor-watchity';
+import { isNodeActive } from 'ngx-editor-watchity/helpers';
 
 @Component({
   selector: 'app-custom-menu',
