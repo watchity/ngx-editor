@@ -1,5 +1,5 @@
 import { MarkType } from 'prosemirror-model';
-import { EditorState, TextSelection, Transaction } from 'prosemirror-state';
+import { EditorState, TextSelection, Transaction, type Command } from 'prosemirror-state';
 
 import { markApplies } from 'ngx-editor-watchity/helpers';
 import { Command } from 'prosemirror-commands';

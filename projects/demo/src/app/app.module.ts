@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { NgxEditorModule } from 'ngx-editor-watchity';
+import { NgxEditorModule } from 'ngx-editor';
 
 import { CustomMenuComponent } from './components/custom-menu/custom-menu.component';
 
